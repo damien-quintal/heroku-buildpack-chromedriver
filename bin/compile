@@ -35,4 +35,5 @@ unzip -o $ZIP_LOCATION -d $BUILD_DIR
 rm -f $ZIP_LOCATION
 indent "Downloaded"
 
+cd $BUILD_DIR
 ls -la
