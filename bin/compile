@@ -34,3 +34,5 @@ curl -s -o $ZIP_LOCATION $ZIP_URL
 unzip -o $ZIP_LOCATION -d $BUILD_DIR
 rm -f $ZIP_LOCATION
 indent "Downloaded"
+
+ls -la
